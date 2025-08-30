@@ -105,7 +105,7 @@ const QuizPage: React.FC<QuizPageProps> = ({ onRestart }) => {
         {/* Header */}
         <header className="flex items-center justify-between mb-8 glass rounded-2xl p-6 shadow-xl">
             <Image src={GDGLogo} alt="GDG Logo" className="h-10 w-10 object-contain" width={40} height={40} />
-            <Image src={GDGLogo} alt="GDG Logo" className="h-10 w-10 object-contain" />
+            {/* <Image src={GDGLogo} alt="GDG Logo" className="h-10 w-10 object-contain" /> */}
             <span className="text-xl font-bold text-gray-800">GDG NITJ Tech Quiz</span>
             <div className={`flex items-center gap-2 text-2xl font-bold ${getTimerColor()}`}>
               <Clock className="w-6 h-6" />
